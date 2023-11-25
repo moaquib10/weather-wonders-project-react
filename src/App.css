@@ -1,38 +1,89 @@
+.section01 {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-clock {
+  display: flex;
+}
+
+.clock {
+  color: #c9c9c9e5;
+  font-weight: bolder;
+  margin-top: 59px;
+}
+
 .App {
-  text-align: center;
+  height: auto;
+  max-width: 1045px;
+  margin: 20px auto;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #001f3f 0%, #086a91 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-div {
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.para {
+  display: flex;
+  justify-content: center;
+  color: #ecf0f1;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.complete-forecast {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.complete-forecast1 {
+  width: 100%;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 480px) {
+  .App {
+    height: auto;
+    max-width: 100%;
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .complete-forecast {
+    gap: 5px;
+  }
+
+  .complete-forecast1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  .img-div {
+    margin-top: 10px;
+  }
+
+  .logo-clock {
+    display: list-item;
+  }
+
+  .clock {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 970px) {
+  .App {
+    height: auto;
+    padding: 15px;
   }
 }
