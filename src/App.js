@@ -4,7 +4,7 @@ import Search from './Components/Search';
 import logo from "./Images/logo.png";
 import CurrentWeather from "./Components/CurrentWeather.js";
 import WeeklyForecast from './Components/WeeklyForecast';
-import { WEATHER_API_URL, WEATHER_API_KEY } from './api';
+import { WEATHER_API_URL } from './api';
 import HalfMoon from "./Images/HalfMoon.png";
 import Clock from './Components/Time.js';
 
@@ -20,8 +20,8 @@ function App() {
     setLoading(false);
     const [lat, lon] = searchData.value.split(" ");
 
-    const currentWeatherFetch = fetch(`${WEATHER_API_URL}weather?lat=${lat}&lon=${lon}&units=metric&appid=${WEATHER_API_KEY}`);
-    const weeklyforecastFetch = fetch(`${WEATHER_API_URL}forecast?lat=${lat}&lon=${lon}&units=metric&appid=${WEATHER_API_KEY}`);
+    const currentWeatherFetch = fetch(`${WEATHER_API_URL}weather?lat=${lat}&lon=${lon}&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`);
+    const weeklyforecastFetch = fetch(`${WEATHER_API_URL}forecast?lat=${lat}&lon=${lon}&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`);
 
 
     Promise.all([currentWeatherFetch, weeklyforecastFetch])
