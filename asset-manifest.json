@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/weather-wonders-project-react/static/css/main.052b577e.css",
-    "main.js": "/weather-wonders-project-react/static/js/main.280167ef.js",
+    "main.css": "/weather-wonders-project-react/static/css/main.cbe8d2c3.css",
+    "main.js": "/weather-wonders-project-react/static/js/main.7015c8a8.js",
     "static/js/787.19e6d00b.chunk.js": "/weather-wonders-project-react/static/js/787.19e6d00b.chunk.js",
     "static/media/logo.png": "/weather-wonders-project-react/static/media/logo.3bca14c1dbd1d6016be8.png",
     "static/media/HalfMoon.png": "/weather-wonders-project-react/static/media/HalfMoon.f2658edfbed441f93e0d.png",
     "index.html": "/weather-wonders-project-react/index.html",
-    "main.052b577e.css.map": "/weather-wonders-project-react/static/css/main.052b577e.css.map",
-    "main.280167ef.js.map": "/weather-wonders-project-react/static/js/main.280167ef.js.map",
+    "main.cbe8d2c3.css.map": "/weather-wonders-project-react/static/css/main.cbe8d2c3.css.map",
+    "main.7015c8a8.js.map": "/weather-wonders-project-react/static/js/main.7015c8a8.js.map",
     "787.19e6d00b.chunk.js.map": "/weather-wonders-project-react/static/js/787.19e6d00b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.052b577e.css",
-    "static/js/main.280167ef.js"
+    "static/css/main.cbe8d2c3.css",
+    "static/js/main.7015c8a8.js"
   ]
 }
