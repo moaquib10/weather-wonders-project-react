@@ -40,7 +40,7 @@ function App() {
     <section className='section01'>
       <div className="App">
         <div className='logo-clock'>
-          <img className='image-logo' src={logo} alt='' height="120" width="120" />
+          <img className='image-logo' src={logo} alt='' height="140" width="140" />
           <div className='clock'>< Clock /></div>
         </div>
         <div>

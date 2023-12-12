@@ -8,14 +8,17 @@
 
 .heading {
   color: #ca8252;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .current-temp {
-  font-size: x-large;
+  font-size: 2em;
 }
 
 .current-temp1 {
-  color: rgb(170, 170, 170);
+  color: #aaa;
+  font-size: 16px;
 }
 
 .current-data {
@@ -23,7 +26,7 @@
   align-items: center;
   color: #f0f0f0;
   font-weight: 500;
-  gap: 25px;
+  gap: 20px;
 }
 
 .cw-ac-section {
@@ -41,35 +44,24 @@
 }
 
 .current-wd {
-  margin-top: 15px;
   text-align: center;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.current-wd1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.current-wd:hover {
+  background-color: #ecf0f1;
 }
 
 .icon-name {
   margin-left: 5px;
   color: #555;
+  font-size: 14px;
 }
 
 .current-wd2 {
   margin-top: 5px;
   font-size: 16px;
   color: #777;
-}
-
-.current-wd:hover {
-  background-color: #ecf0f1;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.current-wd:hover .current-wd2 {
-  color: #27ae60;
-  transition: color 0.3s ease-in-out;
 }
 
 @media (max-width: 480px) {
@@ -80,6 +72,7 @@
 
   .heading {
     margin-top: 15px;
+    font-size: 18px;
   }
 
   .current-data {
@@ -94,8 +87,6 @@
   }
 
   .current-wd {
-    flex-direction: column;
-    align-items: center;
     margin: 10px 0;
     gap: 10px;
   }
@@ -126,8 +117,6 @@
   }
 
   .current-wd {
-    flex-direction: column;
-    align-items: center;
     margin: 10px 0;
     gap: 15px;
   }

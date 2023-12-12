@@ -5,12 +5,14 @@
 
 .logo-clock {
   display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .clock {
-  color: #c9c9c9e5;
+  color: #ffffffef;
   font-weight: bolder;
-  margin-top: 59px;
+  font-size: 1.2rem;
 }
 
 .App {
@@ -73,11 +75,13 @@
   }
 
   .logo-clock {
-    display: list-item;
+    flex-direction: row;
+    align-items: flex-end;
   }
 
   .clock {
-    margin-top: 0px;
+    margin-top: 10px;
+    font-size: 1rem;
   }
 }
 
